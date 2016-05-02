@@ -32,12 +32,14 @@ class Bubble
 end # end class
 
 nums = [6,42,13,1,409]
+nums_part_duex = [23,55,666,11,14,72,42,3,116,1052]
 
-sorted_nums = Bubble.new(nums).sort
+sorted_nums = Bubble.new(nums_part_duex).sort
 # sorted_nums should return 1,6,13,42,409
 
 describe Bubble do
   it "should be sorted" do
-    sorted_nums = [1, 6, 13, 42, 409]
+    sorted_nums = [3,11,14,23,42,55,72,116,666,1052]
+
   end
 end
